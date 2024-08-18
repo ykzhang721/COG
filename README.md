@@ -1,7 +1,10 @@
 <h1 align="center"><strong>Light Up the Shadows: Enhance Long-Tailed Entity Grounding with Concept-Guided Vision-Language Models</strong></h1>
 
+Our paper is accepted by ACL 2024 (Findings). 🎉
 
-# **COG**: a two-stage framework with **CO**ncept-**G**uided vision-language models for long-tailed entity grounding.
+## Overview
+
+### **COG**: a two-stage framework with **CO**ncept-**G**uided vision-language models for long-tailed entity grounding.
 
 Multi-Modal Knowledge Graphs (MMKGs) are valuable for various tasks but are hard to scale due to the presence of mismatched images, especially for long-tailed entities with scarce images online. 
 Addressing this, the method of using vision-language models enhanced with **CO**ncept **G**uidance is introduced, featuring a two-stage framework named **COG**. 
@@ -245,11 +248,25 @@ If our paper or related resources prove valuable to your research, we kindly ask
 
 <!-- paper citation link -->
 ```
-@article{zhang2024light,
-  title={Light Up the Shadows: Enhance Long-Tailed Entity Grounding with Concept-Guided Vision-Language Models},
-  author={Zhang, Yikai and He, Qianyu and Wang, Xintao and Yuan, Siyu and Liang, Jiaqing and Xiao, Yanghua},
-  journal={arXiv preprint arXiv:2406.10902},
-  year={2024}
+@inproceedings{zhang-etal-2024-light,
+    title = "Light Up the Shadows: Enhance Long-Tailed Entity Grounding with Concept-Guided Vision-Language Models",
+    author = "Zhang, Yikai  and
+      He, Qianyu  and
+      Wang, Xintao  and
+      Yuan, Siyu  and
+      Liang, Jiaqing  and
+      Xiao, Yanghua",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.793",
+    pages = "13379--13389",
+    abstract = "Multi-Modal Knowledge Graphs (MMKGs) have proven valuable for various downstream tasks. However, scaling them up is challenging because building large-scale MMKGs often introduces mismatched images (i.e., noise). Most entities in KGs belong to the long tail, meaning there are few images of them available online. This scarcity makes it difficult to determine whether a found image matches the entity. To address this, we draw on the Triangle of Reference Theory and suggest enhancing vision-language models with concept guidance. Specifically, we introduce COG, a two-stage framework with COncept-Guided vision-language models. The framework comprises a Concept Integration module, which effectively identifies image-text pairs of long-tailed entities, and an Evidence Fusion module, which offers explainability and enables human verification. To demonstrate the effectiveness of COG, we create a dataset of 25k image-text pairs of long-tailed entities. Our comprehensive experiments show that COG not only improves the accuracy of recognizing long-tailed image-text pairs compared to baselines but also offers flexibility and explainability.",
 }
 ```
 
